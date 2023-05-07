@@ -76,6 +76,12 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 
 [[package]]
+name = "component"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c7c91726d7842f5bdb6d2abce1006ea86441ef0be753040ebec487070827c79d"
+
+[[package]]
 name = "console"
 version = "0.15.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -440,11 +446,18 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f162c6dd7b008981e4d40210aca20b4bd0f9b60ca9271061b07f78537722f2e1"
 
 [[package]]
+name = "rust-analyzer"
+version = "0.0.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "11707871ffa56ce568d4f15dd34c2f891a2aa5e4b3435b99b8f99938492525c3"
+
+[[package]]
 name = "rustlings"
 version = "5.4.1"
 dependencies = [
  "argh",
  "assert_cmd",
+ "component",
  "console",
  "glob",
  "home",
@@ -452,6 +465,7 @@ dependencies = [
  "notify",
  "predicates",
  "regex",
+ "rust-analyzer",
  "serde",
  "serde_json",
  "toml",
