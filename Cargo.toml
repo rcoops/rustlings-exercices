@@ -20,6 +20,7 @@ home = "0.5.3"
 glob = "0.3.0"
 component = "0.1.0"
 rust-analyzer = "0.0.1"
+cargo-watch = "8.4.0"
 
 [[bin]]
 name = "rustlings"
